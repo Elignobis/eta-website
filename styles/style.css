@@ -229,6 +229,10 @@ header {
     .navbar-menu {
       display: none;
     }
+
+    .company-name-nav {
+        display: none;
+    }
     .navbar-toggle {
       display: block;
     }
