@@ -1,272 +1,178 @@
-/* GOogle Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300&display=swap');
-
-/* Universal Styles */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
 }
 
-/* Main Color variables  */
-
-section {
-    padding: 50px 10%;
-}
-
-.home {
+.top-navbar {
     width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-attachment: fixed;
+    height: 7vh;
+    background-color: #a9a9a926;
     display: flex;
     align-items: center;
-}
-
-.home-text h1{
-    font-size: 2.7rem;
-    color: #f0f1fdda;
-}
-
-.home-text p {
-    font-size: 0.983rem;
-    margin: 0.4rem 0 1.8rem;
-    color: #fff;
-}
-
-.home-text span {
-    color: rgb(31, 31, 223);
-}
-
-.btn {
-    padding: 10px 14px;
-    background: rgba(255, 255, 255, 0.842);
-    color: rgb(199, 92, 92);
-    border-radius: 0.3rem;
-    font-size: 14px;
-}
-
-.btn:hover {
-    background: rgb(31, 31, 223);
-}
-
-
-/* :root {
-    --text-color: #000000;
-    --main-color: #83b735;
-}
-
-
-
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-between;
-    padding: 18px 100px;
-    background: #edecea ;
 }
 
-.logo {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text-color)
+.top-icons {
+    margin-left: 45px;
 }
 
-.logo span {
-    color: var(--main-color);
-}
-
-.navbar {
-    position: relative;
-    display: flex;
-}
-
-.navbar a {
-    font-size: 1rem;
-    padding: 10px 20px;
-    font-weight: 500;
-    color: var(--text-color);
-}
-
-.navbar a:hover {
-    color: var(--main-color);
-}
-
-#menu-icon {
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-}
-
-
-
-.title-price {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px
-}
-
-.title-price h3 {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.box span {
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding-left: 12px;
-    color: var(--main-color);
-}
-
-.stars .bx {
-    color: var(--main-color);
-}
-
-.box  .bx-cart {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 7px;
+.top-icons i {
     font-size: 20px;
-    color: #fff;
-    border-radius: 4px 0 4px 0;
-    background: var(--main-color);
+    color: #1c1c50;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-.box .bx-cart:hover {
-    background: #8fc53d;
-} */
+.other-links {
+    margin-right: 33px;
+}
 
-
-
-
-
-
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar-brand {
-    display: flex;
-    align-items: center;
-    padding: 0 1rem;
-  }
-  
-  .navbar-brand img {
-    height: 60px;
-    position: relative;
-    left: 100px;
-  }
-  .company-name-nav {
-    position: relative;
-    left: 110px;
-  }
-  .navbar-menu {
-    display: flex;
-    align-items: center;
-    position: relative;
-    right: 100px;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-item {
-    margin: 0 1rem;
-  }
-  
-  .nav-link {
-    display: block;
-    padding: 1rem;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    background-color: #eee;
-  }
-  
-  .navbar-toggle {
-    display: none;
-    background-color: transparent;
-    border: 0;
-    outline: 0;
+.other-links i {
+    font-size: 20px;
+    color: #1c1c50;
+    margin-left: 10px;
     cursor: pointer;
-  }
-  
-  .navbar-toggle-icon {
-    display: block;
-    width: 24px;
-    height: 2px;
-    background-color: #333;
-  }
-  
-  @media (max-width: 768px) {
-    .navbar-menu {
-      display: none;
+}
+
+#btn-login {
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn-login a {
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+
+#btn-login a:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+#btn-login:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+#btn-signup {
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn-signup a {
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+
+#btn-signup a:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+#btn-signup:hover {
+    background-color: #1c1c50;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .top-icons {
+        margin-left: 30px;
+    }
+    
+    .top-icons i {
+        font-size: 15px;
     }
 
-    .company-name-nav {
-        display: none;
-    }
-    .navbar-toggle {
-      display: block;
+    .other-links i {
+        font-size: 15px;
     }
 
-    .navbar-brand img {
-        position: relative;
-        left: 10px;
-      }
+    #btn-login {
+        width: 60px;
+        height: 5vh;
+    }
 
-      .navbar-toggle {
-        position: relative;
-        right: 30px;
-      }
+    #btn-signup {
+        width: 70px;
+        height: 5vh;
+    }
+    
+}
 
-  }
+@media screen and (max-width:350px){
+    .top-icons {
+        margin-left: 10px;
+    }
+    
+    .top-icons i {
+        font-size: 10px;
+    }
 
+    .other-links {
+        font-size: 10px;
+    }
 
+    .other-links i {
+        font-size: 10px;
+    }
 
+    #btn-login {
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
 
+    #btn-signup {
+        width: 60px;
+        height: 5vh;
+        font-size: 13px;
+    }
+    
+}
 
+@media screen and (max-width:350px){
+    .top-icons {
+        margin-left: 5px;
+    }
+    
+    .top-icons i {
+        font-size: 12px;
+    }
 
+    .other-links {
+        font-size: 10px;
+    }
 
+    .other-links i {
+        font-size: 12px;
+    }
 
+    #btn-login {
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #btn-signup {
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    
+}
