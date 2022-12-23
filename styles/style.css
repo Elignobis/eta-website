@@ -306,3 +306,34 @@
 #row-div {
     margin-top: 10px;
 }
+
+#top-cards {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top-cards .card img {
+    height: 60vh;
+}
+
+#top-cards h5 {
+    color: rgb(33,150,243);
+    font-weight: bold;
+}
+
+#top-cards button {
+    width: 150px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: transparent;
+    color: rgb(33,150,243);
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#top-cards button:hover {
+    background-color: #1c1c50;
+    color: white;
+}
