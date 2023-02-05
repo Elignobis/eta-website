@@ -4,8 +4,9 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    overflow-x: hidden;
 }
+
+
 
 body {
     overflow-x: hidden
@@ -190,12 +191,23 @@ body {
     width: 100%;
     height: 93vh;
     background-color: #a9a9a926;
+
+}
+
+.navbar-fixed {
+    
 }
 
 #navbar {
     background-color: #f3f15e;
     font-size: 16px;
     font-family: 'Roboto Slab', sans-serif;
+    position: fixed;
+    width: 99.7%;
+    top: 0;
+    z-index: 1;
+    transition: top 0.3s;
+    margin-top: 42px;
 }
 
 #navbar .nav-link {
@@ -337,9 +349,7 @@ body {
     width: 40vh;
 }
 
-.card-1 {
-    
-}
+
 
 
 #top-cards button {
