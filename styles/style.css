@@ -4,6 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 body {
@@ -317,6 +318,7 @@ body {
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     margin-left: 18px;
+    margin-right: 18px;
 }
 
 #top-cards .card img {
@@ -332,7 +334,7 @@ body {
     width: 100px;
 } */
 .card {
-    width: 45vh;
+    width: 40vh;
 }
 
 .card-1 {
