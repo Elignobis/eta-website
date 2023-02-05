@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .top-navbar {
@@ -312,6 +316,7 @@
 #top-cards {
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
+    margin-left: 18px;
 }
 
 #top-cards .card img {
@@ -322,6 +327,18 @@
     color: rgb(33,150,243);
     font-weight: bold;
 }
+
+/* .card-img-overlay {
+    width: 100px;
+} */
+.card {
+    width: 50vh;
+}
+
+.card-1 {
+    
+}
+
 
 #top-cards button {
     width: 150px;
